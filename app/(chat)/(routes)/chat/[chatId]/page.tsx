@@ -28,10 +28,7 @@ const ChatIdPage = async ({
       messages: {
         orderBy: {
           createdAt: "asc"
-        },
-        where: {
-          userId,
-        },
+        }
       },
       _count: {
         select: {
